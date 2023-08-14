@@ -66,3 +66,11 @@ Git ist ein Versionskontrollsystem, das es dir ermöglicht, Änderungen an Datei
 - installieren
    - Windows: `choco install git -y`
    - macOS:
+
+#### VS Code Extensions
+
+In VS Code können Erweiterungen installiert werden, um die Funktionalität des Editors zu erweitern. Während dem Studium werden wir einige Erweiterungen verwenden, um unsere Arbeit zu vereinfachen. Folgende Erweiterungen könnt ihr gleich einmal installieren:
+
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [R](https://marketplace.visualstudio.com/items?itemName=Ikuyadeu.r)
+- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
