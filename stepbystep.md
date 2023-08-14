@@ -66,3 +66,5 @@ Git ist ein Versionskontrollsystem, das es dir ermöglicht, Änderungen an Datei
 - installieren
    - Windows: `choco install git -y`
    - macOS:
+
+### Visual Studio Code Extensions
