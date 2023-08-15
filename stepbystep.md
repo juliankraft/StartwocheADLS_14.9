@@ -1,6 +1,6 @@
 ### VS Code
 ***In diesem Programm wirst du deinen zukünftigen Code verfassen!*** <br>
-Visual Studio Code ist eine kostenlose, plattformübergreifende Code-Editor-Software, die von Microsoft entwickelt wurde. Sie bietet Unterstützung für Hunderte von Programmiersprachen und Erweiterungen, die die Funktionalität des Editors erweitern. VS Code ist eine der beliebtesten Code-Editor-Software auf dem Markt und wird von vielen Entwicklern und Datenwissenschaftlern verwendet.
+Visual Studio Code ist eine kostenlose, plattformübergreifende Code-Editor-Software, die von Microsoft entwickelt wurde. Sie bietet Unterstützung für Hunderte von Programmiersprachen und Erweiterungen, die die Funktionalität des Editors erweitern. VS Code ist eine der beliebtesten Code-Editor-Software auf dem Markt und wird von vielen Entwicklern und Datenwissenschaftlern verwendet. <br>
 [VS Code in 100 Sekunden](https://www.youtube.com/watch?v=KMxo3T_MTvY&ab_channel=Fireship)
 
 #### Installation
@@ -50,7 +50,8 @@ Wichtig `brew list`, zeigt dir an welche Programme/Extensions du mit brew herunt
 
 #### Python
 
-Python ist eine einfach zu erlernende, aber dennoch leistungsstarke Programmiersprache. Sie ist sehr beliebt für Datascience und Machine Learning. Während dem Studium werden wir Python für viele Programmieraufgaben verwenden. [Mehr erfahren](https://www.python.org/about/)
+Python ist eine einfach zu erlernende, aber dennoch leistungsstarke Programmiersprache. Sie ist sehr beliebt für Datascience und Machine Learning. Während dem Studium werden wir Python für viele Programmieraufgaben verwenden. <br>
+[Mehr erfahren](https://www.python.org/about/)
 
 - installieren
    - Windows: `choco install python -y`
@@ -59,7 +60,8 @@ Python ist eine einfach zu erlernende, aber dennoch leistungsstarke Programmiers
 
 #### R language
 
-R ist eine Programmiersprache für statistisches Rechnen, das analysieren und bearbeiten von Daten und bietet viele Möglichkeiten zur Datenvisualisierung. Während dem Studium werden wir R dafür immer mal wieder verwenden. [Mehr erfahren](https://www.r-project.org/about.html)
+R ist eine Programmiersprache für statistisches Rechnen, das analysieren und bearbeiten von Daten und bietet viele Möglichkeiten zur Datenvisualisierung. Während dem Studium werden wir R dafür immer mal wieder verwenden. <br>
+[Mehr erfahren](https://www.r-project.org/about.html)
 
 - installieren
    - Windows: `choco install r.project -y`
@@ -67,7 +69,8 @@ R ist eine Programmiersprache für statistisches Rechnen, das analysieren und be
    
 #### Docker-Desktop
 
-Docker Desktop ist eine Anwendung, die es ermöglicht, Anwendungen in isolierten Umgebungen, sogenannten Containern, auf deinem Computer auszuführen. Diese Container enthalten alle benötigten Ressourcen, wie Code, Bibliotheken und Konfigurationen, um die Anwendung reibungslos zu betreiben. Durch die Verwendung von Docker kannst du Anwendungen in konsistenten und portablen Umgebungen entwickeln, testen und ausführen, unabhängig von den Unterschieden zwischen deinem Entwicklungsrechner und Produktionsumgebungen. [Mehr erfahren](https://www.docker.com/why-docker)
+Docker Desktop ist eine Anwendung, die es ermöglicht, Anwendungen in isolierten Umgebungen, sogenannten Containern, auf deinem Computer auszuführen. Diese Container enthalten alle benötigten Ressourcen, wie Code, Bibliotheken und Konfigurationen, um die Anwendung reibungslos zu betreiben. Durch die Verwendung von Docker kannst du Anwendungen in konsistenten und portablen Umgebungen entwickeln, testen und ausführen, unabhängig von den Unterschieden zwischen deinem Entwicklungsrechner und Produktionsumgebungen. <br>
+[Mehr erfahren](https://www.docker.com/why-docker)
 
 - installieren
    - Windows: `choco install docker-desktop -y`
@@ -76,7 +79,8 @@ Docker Desktop ist eine Anwendung, die es ermöglicht, Anwendungen in isolierten
 #### Git
 ***Github wird dir dabei behilflich sein, in einem im Team Codes verwalten und Teilen*** <br>
 ***Du kannst sie auch mit der Community teilen und deine eigenen Projekte verfassen*** <br>
-Git ist ein Versionskontrollsystem, das es dir ermöglicht, Änderungen an Dateien zu verfolgen und diese Änderungen zu verwalten. Während dem Studium werden wir Git verwenden, um unsere Projekte zu verwalten und zu teilen. [Mehr erfahren](https://git-scm.com/about)
+Git ist ein Versionskontrollsystem, das es dir ermöglicht, Änderungen an Dateien zu verfolgen und diese Änderungen zu verwalten. Während dem Studium werden wir Git verwenden, um unsere Projekte zu verwalten und zu teilen. <br>
+[Mehr erfahren](https://git-scm.com/about)
 
 - installieren
    - Windows: `choco install git -y`
