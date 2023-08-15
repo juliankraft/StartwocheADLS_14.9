@@ -74,7 +74,7 @@ Docker Desktop ist eine Anwendung, die es ermöglicht, Anwendungen in isolierten
    - macOS:  `brew install docker`
 
 #### Git
-***Github wird dir dabei behilflich sein, in einem im Team Codes verwalten und Teilen***
+***Github wird dir dabei behilflich sein, in einem im Team Codes verwalten und Teilen*** <br>
 ***Du kannst sie auch mit der Community teilen und deine eigenen Projekte verfassen*** <br>
 Git ist ein Versionskontrollsystem, das es dir ermöglicht, Änderungen an Dateien zu verfolgen und diese Änderungen zu verwalten. Während dem Studium werden wir Git verwenden, um unsere Projekte zu verwalten und zu teilen. [Mehr erfahren](https://git-scm.com/about)
 
