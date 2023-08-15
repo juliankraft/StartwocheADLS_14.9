@@ -1,5 +1,5 @@
 ### VS Code
-***In diesem Programm wirst du deinen zukünftigen Code verfassen!***
+***In diesem Programm wirst du deinen zukünftigen Code verfassen!*** <br>
 Visual Studio Code ist eine kostenlose, plattformübergreifende Code-Editor-Software, die von Microsoft entwickelt wurde. Sie bietet Unterstützung für Hunderte von Programmiersprachen und Erweiterungen, die die Funktionalität des Editors erweitern. VS Code ist eine der beliebtesten Code-Editor-Software auf dem Markt und wird von vielen Entwicklern und Datenwissenschaftlern verwendet.
 [VS Code in 100 Sekunden](https://www.youtube.com/watch?v=KMxo3T_MTvY&ab_channel=Fireship)
 
