@@ -26,7 +26,6 @@ Chocolatey und Homebrew sind Paketmanager für Windows und MacOS. Sie ermöglich
    - Mit dem Befehl `choco list` könnt ihr alle installierten Chocolatey-Pakete auflisten.
    - Mit dem Befehl `choco search "name"` könnt ihr nach verfügbaren Chocolatey-Paketen suchen.
    - Eine Liste mit verfügbaren Chocolatey-Paketen findet ihr auch [hier](https://community.chocolatey.org/packages).
-
 </details>
 
 <details>
@@ -43,8 +42,6 @@ Erschein das Feld Succesfull, weisst du dass es funktioniert hat.
 - Kopiere nun den Link bei Next Steps und füge in in der Commando Zeile ein. Drücke erneut enter. Um zu sehen ob dies funktioniert hat, rufe `brew help` auf, nun siehst du alle Funktionen die dir zu Verfügung stehen
 - Mit dem Befehl: `brew search "name"` kannst du diverse Programme abrufen.
 Wichtig `brew list`, zeigt dir an welche Programme/Extensions du mit brew herunter geladen hast, nicht die liste aller möglichen Programme von HOMEBREW
-
-
 </details>
 
 ### Sonstiges
@@ -55,10 +52,9 @@ Python ist eine einfach zu erlernende, aber dennoch leistungsstarke Programmiers
 [Mehr erfahren](https://www.python.org/about/)
 
 - installieren
-   - Windows: `choco install python -y`
+   - Windows: `choco install python -y` (-y steht für yes, damit die Installation automatisch durchgeführt wird)
    - macOS: `brew install python`
   
-
 #### R language
 
 R ist eine Programmiersprache für statistisches Rechnen, das analysieren und bearbeiten von Daten und bietet viele Möglichkeiten zur Datenvisualisierung. Während dem Studium werden wir R dafür immer mal wieder verwenden. <br>
