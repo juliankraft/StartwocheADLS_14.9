@@ -22,7 +22,7 @@ Chocolatey und Homebrew sind Paketmanager für Windows und MacOS. Sie ermöglich
         @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
         ```
    - Wenn die Installation abgeschlossen ist kann mit dem Befehl `choco` geartbeitet werden. Versucht doch mal `choco -?` auszuführen um die Hilfe aufzurufen...
-   - Mit dem Befehl `choco list -l` könnt ihr alle installierten Chocolatey-Pakete auflisten.
+   - Mit dem Befehl `choco list` könnt ihr alle installierten Chocolatey-Pakete auflisten.
    - Mit dem Befehl `choco search "name"` könnt ihr nach verfügbaren Chocolatey-Paketen suchen.
    - Eine Liste mit verfügbaren Chocolatey-Paketen findet ihr auch [hier](https://community.chocolatey.org/packages).
 
