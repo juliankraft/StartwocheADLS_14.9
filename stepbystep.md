@@ -8,7 +8,7 @@ Visual Studio Code ist eine kostenlose, plattformübergreifende Code-Editor-Soft
 Die Installation von VS Code ist sehr einfach. Laden Sie einfach die Installationsdatei von der [VS Code-Website](https://code.visualstudio.com/) herunter und führen Sie sie aus. Die Installation ist in wenigen Minuten abgeschlossen.
 
 ### Chocolatey oder Homebrew
-***Deine Installationshilfe im Studium um Programme einfach und Problemlos zu installieren***
+***Deine Installationshilfe im Studium um Programme einfach und Problemlos zu installieren*** <br>
 Chocolatey und Homebrew sind Paketmanager für Windows und MacOS. Sie ermöglichen es Ihnen, Software von der Kommandozeile aus zu installieren und zu verwalten. Sie sind sehr nützlich, um die Installation von Software zu automatisieren und zu vereinfachen. In diesem Studium werden wir Chocolatey für Windows und Homebrew für MacOS verwenden.
 
 #### Installation
@@ -75,8 +75,7 @@ Docker Desktop ist eine Anwendung, die es ermöglicht, Anwendungen in isolierten
 
 #### Git
 ***Github wird dir dabei behilflich sein, in einem im Team Codes verwalten und Teilen***
-***Du kannst sie auch mit der Community teilen und deine eigenen Projekte verfassen***
-
+***Du kannst sie auch mit der Community teilen und deine eigenen Projekte verfassen*** <br>
 Git ist ein Versionskontrollsystem, das es dir ermöglicht, Änderungen an Dateien zu verfolgen und diese Änderungen zu verwalten. Während dem Studium werden wir Git verwenden, um unsere Projekte zu verwalten und zu teilen. [Mehr erfahren](https://git-scm.com/about)
 
 - installieren
