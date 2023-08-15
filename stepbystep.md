@@ -8,7 +8,7 @@ Visual Studio Code ist eine kostenlose, plattformübergreifende Code-Editor-Soft
 Die Installation von VS Code ist sehr einfach. Laden Sie einfach die Installationsdatei von der [VS Code-Website](https://code.visualstudio.com/) herunter und führen Sie sie aus. Die Installation ist in wenigen Minuten abgeschlossen.
 
 ### Chocolatey oder Homebrew
-*** Deine Installationshilfe im Studium um Programme einfach und Problemlos zu installieren***
+***Deine Installationshilfe im Studium um Programme einfach und Problemlos zu installieren***
 Chocolatey und Homebrew sind Paketmanager für Windows und MacOS. Sie ermöglichen es Ihnen, Software von der Kommandozeile aus zu installieren und zu verwalten. Sie sind sehr nützlich, um die Installation von Software zu automatisieren und zu vereinfachen. In diesem Studium werden wir Chocolatey für Windows und Homebrew für MacOS verwenden.
 
 #### Installation
@@ -22,21 +22,26 @@ Chocolatey und Homebrew sind Paketmanager für Windows und MacOS. Sie ermöglich
         @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
         ```
    - Wenn die Installation abgeschlossen ist kann mit dem Befehl `choco` geartbeitet werden. Versucht doch mal `choco -?` auszuführen um die Hilfe aufzurufen...
-   - Eine Liste mit verfügbaren Chocolatey-Paketen findet ihr [hier](https://community.chocolatey.org/packages).
+   - Mit dem Befehl `choco list -l` könnt ihr alle installierten Chocolatey-Pakete auflisten.
+   - Mit dem Befehl `choco search "name"` könnt ihr nach verfügbaren Chocolatey-Paketen suchen.
+   - Eine Liste mit verfügbaren Chocolatey-Paketen findet ihr auch [hier](https://community.chocolatey.org/packages).
 
 </details>
 
 <details>
 <summary>Installation von Homebrew auf MacOS</summary>
 
-Terminal des Macbooks öffnen: Tippe in der Suchzeile des Macs Terminal ein.
-Gebe diesen Befehll ins Terminal ein
-/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-Gebe nun dein Mac Password ein (Wichtig du wirst keine Sternchen sehen, oder dass du etwas eingibst)
+- Terminal des Macbooks öffnen: Tippe in der Suchzeile des Macs Terminal ein.
+- Gebe diesen Befehll ins Terminal ein:
+   ```bash
+   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+   ```
+- Gebe nun dein Mac Password ein (Wichtig du wirst keine Sternchen sehen, oder dass du etwas eingibst)
 Klicke enter. Hat dies funktioniert. Drücke Nochmals enter um den Download zu bestätigen. 
 Erschein das Feld Succesfull, weisst du dass es funktioniert hat. 
-Kopiere nun den Link bei Next Steps und füge in in der Commando Zeile ein. Drücke erneut enter. Um zu sehen ob dies funktioniert hat, rufe brew help auf, nun siehst du alle Funktionen die dir zu verfügung stehen
-
+- Kopiere nun den Link bei Next Steps und füge in in der Commando Zeile ein. Drücke erneut enter. Um zu sehen ob dies funktioniert hat, rufe `brew help` auf, nun siehst du alle Funktionen die dir zu Verfügung stehen
+- Mit dem Befehl: `brew search "name"` kannst du diverse Programme abrufen.
+Wichtig `brew list`, zeigt dir an welche Programme/Extensions du mit brew herunter geladen hast, nicht die liste aller möglichen Programme von HOMEBREW
 
 
 </details>
@@ -49,10 +54,8 @@ Python ist eine einfach zu erlernende, aber dennoch leistungsstarke Programmiers
 
 - installieren
    - Windows: `choco install python -y`
-   - macOS: brew install python
-   mit dem Befehl: brew search ***name***
-   kannst du diverse Programme abrufen.
-   Wichtig brew list, zeigt dir an welche Programme/Extensions du mit brew herunter geladen hast, nicht die liste aller möglichen Programme von HOMEBREW
+   - macOS: `brew install python`
+   
 
 #### R language
 
@@ -60,7 +63,7 @@ R ist eine Programmiersprache für statistisches Rechnen, das analysieren und be
 
 - installieren
    - Windows: `choco install r.project -y`
-   - macOS: brew install python
+   - macOS: `brew install r`
    
 #### Docker-Desktop
 
@@ -68,17 +71,17 @@ Docker Desktop ist eine Anwendung, die es ermöglicht, Anwendungen in isolierten
 
 - installieren
    - Windows: `choco install docker-desktop -y`
-   - macOS:  brew install python3
+   - macOS:  `brew install docker`
 
 #### Git
-*** Github wird dir dabei behilflich sein, in einem im Team Codes verwalten und Teilen ***
-*** Du kannst sie auch mit der Community teilen und deine eigenen Projekte verfassen ***
+***Github wird dir dabei behilflich sein, in einem im Team Codes verwalten und Teilen***
+***Du kannst sie auch mit der Community teilen und deine eigenen Projekte verfassen***
 
 Git ist ein Versionskontrollsystem, das es dir ermöglicht, Änderungen an Dateien zu verfolgen und diese Änderungen zu verwalten. Während dem Studium werden wir Git verwenden, um unsere Projekte zu verwalten und zu teilen. [Mehr erfahren](https://git-scm.com/about)
 
 - installieren
    - Windows: `choco install git -y`
-   - macOS: brew install git
+   - macOS: `brew install git`
 
 #### VS Code Extensions
 
