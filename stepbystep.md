@@ -1,3 +1,26 @@
+### MAC USER ONLY
+Bist du dir unsicher ob du einen M1/M2 Chip oder einen Intel Processor besitzt? 
+- überprüfe dies bevor du den Download startest. Ganz oben links auf deinem Desktop siehst du das Apple Symbol. Klicke dort drauf -> Über diesen Mac. Bei der Rubrik Chip siehst du deinen Prozessor.
+
+### MAC USER - XCode App
+foo <font color='red'>bar</font> fooEs gibt eine Möglichkeit, auf denn Appstore mit dem Terminal zu navigieren.
+Zuerst müssen wir dafür "mas" installieren
+brew install mas
+Wenn die Installation reibungslosgeklappt hat, können wir nun mit mas zu Xcode Navigieren
+mas search xcode
+Wenn du dies ausführst siehst du etwa so etwas(kann sein dass du bisschen hoch scrollen musst):
+meggie@Fuchsli ~ % mas search xcode
+   **640199958**  Apple Developer                                    (10.4.1)
+   497799835  Xcode                                               (14.3.1)
+  1388020431  DevCleaner for Xcode                               (2.4.0)
+ -2143041818  GPT Code Creator for Xcode                         (1.8)
+  1504940162  RocketSim for Xcode Simulator                      (11.2.0)
+                                (1.5)
+
+
+Sollte ein Fehler bei die Auftreten(Möglicherweise beim M1 Chip, Air)
+Installiere die Xcode App über den Appstore. 
+
 ### VS Code
 ***In diesem Programm wirst du deinen zukünftigen Code verfassen!*** <br>
 Visual Studio Code ist eine kostenlose, plattformübergreifende Code-Editor-Software, die von Microsoft entwickelt wurde. Sie bietet Unterstützung für Hunderte von Programmiersprachen und Erweiterungen, die die Funktionalität des Editors erweitern. VS Code ist eine der beliebtesten Code-Editor-Software auf dem Markt und wird von vielen Entwicklern und Datenwissenschaftlern verwendet. <br>
