@@ -106,7 +106,8 @@ Docker Desktop ist eine Anwendung, die es ermöglicht, Anwendungen in isolierten
 
 - installieren
    - Windows: `choco install docker-desktop -y`
-   - macOS:  `brew install docker`
+   - macOS:  `brew update`, dannach `brew -- cask docker`
+            
 
 #### Git
 ***Github wird dir dabei behilflich sein, in einem im Team Codes verwalten und Teilen*** <br>
