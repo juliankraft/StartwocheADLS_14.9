@@ -4,6 +4,13 @@ Bist du dir unsicher ob du einen M1/M2 Chip oder einen Intel Processor besitzt?
 Überprüfe dies bevor du den Download startest. Ganz oben links auf deinem Desktop siehst du das <span style="color: #FF5733">Apple Symbol</span>. Klicke dort drauf -> <span style="color: #FF5733">Über diesen Mac.</span> Bei der Rubrik Chip siehst du deinen Prozessor.
 
 ### MAC USER - XCode App
+
+Zwei Möglichkeiten um Xcode zu installieren:
+
+- Erste Möglichkeit: Gehe in de Appstore und suche nach XCode.
+
+- Zweite Möglichkeit, wenn du mit dem Terminal herumspielen willst(DIes dauert erheblich länger das Erbnis ist am Ende das Gleiche):
+
 Es gibt eine Möglichkeit, auf denn Appstore mit dem Terminal zu navigieren.
 
 Zuerst müssen wir dafür "mas" installieren
@@ -29,9 +36,6 @@ Wir brauchen Xcode: 497799835
 <span style="color: #FF5733">- mas install 497799835</span>
 Melde dich nun mit deiner Apple ID an
 
-         
-Sollte ein Fehler bei die Auftreten(Möglicherweise beim M1 Chip, Air)
-Installiere die Xcode App über den Appstore. 
 
 ### VS Code
 ***In diesem Programm wirst du deinen zukünftigen Code verfassen!*** <br>
@@ -127,5 +131,38 @@ In VS Code können Erweiterungen installiert werden, um die Funktionalität des 
 - [R](https://marketplace.visualstudio.com/items?itemName=Ikuyadeu.r)
 - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 
-### Lass uns nun gemeinsam Python im Visualstudio Code Testen. 
+#### Anaconda "virtuelle Umgebung"
+*** Damit du deine Coding Pakete nicht einfach wild auf deinem Laptop herunter lädst, probieren wir diese mit Conda zu zähmen***
+Damit du VS Studio Code bestmöglich nutzen kannst werden wir nun eine virtuelle Umgebung auf deinem Rechner installieren.
+Mach dich schon mal mit dem Namen Conda bekannt.
+Zunächst einmal, dass du hörst was sind die Vor und Nachteile.
+Conda_Vorteile
+
+- Konsistent über alle Platformen
+- Installiert auch in Windows-Umgebungen alle Abhängigkeiten korrekt (Data Science)
+- Jupyter Notebook schon enthalten
+- Automatischer Download verschiedener Versionen beim Erzeugen einer virtuellen Umgebung
+- Keine Probleme mit Berechtigungen bei Firmen-Computern
+- Zugang zu weiteren Paketquellen neben pip
+- Unterstützt Python und R
+
+Conda_Nachteile
+
+- Pakete sind nicht immer auf dem aktuellsten Stand
+- In neu erzeugte Umgebungen werden bereits ein paar Pakete installiert, die im Zweifel gar nicht gebraucht werden
+
+
+Die Begriffe die du im Terminal öffters nutzen wirst ist zum einen conda deactivate, und conda activate. Wichtig ist erscheint neben deinen Namen beim Terminal (base), befindest du dich bereits in Conda. Um Conda zu deactivieren. Schreibe einfach den Befehl Conda deactivate rein.
+
+Im Visual Studio, wirst du als Standart Kernel jeweils Conda auswählen müssen, dabei kannst du zwischen den Programmiersprachen wechseln.
+
+
+hier noch zusätzliche Links zu Anaconda, falls du darüber mehr erfahren willst
+- [What is Anaconda for Python & Why Should You Learn it?](https://blog.hubspot.com/website/anaconda-python)
+
+- [Weitere informationen zu Anaconda in einem Video, installation und Why?(auf englisch)](https://www.youtube.com/watch?v=YJC6ldI3hWk&t=61s)
+
+
+
+#### Lass uns nun gemeinsam Python im Visualstudio Code testen. 
 Ladet das file RockPaperScisors.ipynb herunter und öffnet es in Visualstudio Code...
