@@ -7,9 +7,9 @@ Visual Studio Code ist eine kostenlose, plattformübergreifende Code-Editor-Soft
 
 Die Installation von VS Code ist sehr einfach. Laden Sie einfach die Installationsdatei von der [VS Code-Website](https://code.visualstudio.com/) herunter und führen Sie sie aus. Die Installation ist in wenigen Minuten abgeschlossen.
 
-### Chocolatey oder Homebrew
+### Chocolatey
 ***Deine Installationshilfe im Studium um Programme einfach und Problemlos zu installieren*** <br>
-Chocolatey und Homebrew sind Paketmanager für Windows und MacOS. Sie ermöglichen es Ihnen, Software von der Kommandozeile aus zu installieren und zu verwalten. Sie sind sehr nützlich, um die Installation von Software zu automatisieren und zu vereinfachen. In diesem Studium werden wir Chocolatey für Windows und Homebrew für MacOS verwenden.
+Chocolatey ist ein Paketmanager für Windows. Er ermöglicht dir, Software von der Kommandozeile aus zu installieren und zu verwalten. Chocolatey ist sehr nützlich, um die Installation von Software zu automatisieren und zu vereinfachen. Ein weiterer grosser Vorteil ist, dass Software die mit Chocolatey installiert wurde auch wieder vollständig deinstalliert werden kann - etwas das bei Windows sonst leider nicht ganz so einfach ist.
 
 #### Installation
 
@@ -32,27 +32,24 @@ Chocolatey und Homebrew sind Paketmanager für Windows und MacOS. Sie ermöglich
 Python ist eine einfach zu erlernende, aber dennoch leistungsstarke Programmiersprache. Sie ist sehr beliebt für Datascience und Machine Learning. Während dem Studium werden wir Python für viele Programmieraufgaben verwenden. <br>
 [Mehr erfahren](https://www.python.org/about/)
 
-- installieren
-   - Windows: `choco install python -y` (-y steht für yes, damit die Installation automatisch durchgeführt wird)
-   - macOS: `brew install python`
+- Chocolatey Befehl zur Installation:<br>
+   `choco install python -y` (-y steht für yes, damit die Installation automatisch durchgeführt wird)
   
 #### R language
 
 R ist eine Programmiersprache für statistisches Rechnen, das analysieren und bearbeiten von Daten und bietet viele Möglichkeiten zur Datenvisualisierung. Während dem Studium werden wir R dafür immer mal wieder verwenden. <br>
 [Mehr erfahren](https://www.r-project.org/about.html)
 
-- installieren
-   - Windows: `choco install r.project -y`
-   - macOS: `brew install r`
+- Chocolatey Befehl zur Installation:<br>
+   `choco install r.project -y`
    
 #### Docker-Desktop
 
 Docker Desktop ist eine Anwendung, die es ermöglicht, Anwendungen in isolierten Umgebungen, sogenannten Containern, auf deinem Computer auszuführen. Diese Container enthalten alle benötigten Ressourcen, wie Code, Bibliotheken und Konfigurationen, um die Anwendung reibungslos zu betreiben. Durch die Verwendung von Docker kannst du Anwendungen in konsistenten und portablen Umgebungen entwickeln, testen und ausführen, unabhängig von den Unterschieden zwischen deinem Entwicklungsrechner und Produktionsumgebungen. <br>
 [Mehr erfahren](https://www.docker.com/why-docker)
 
-- installieren
-   - Windows: `choco install docker-desktop -y`
-   - macOS:  `brew update`, dannach `brew -- cask docker`
+- Chocolatey Befehl zur Installation:<br>
+`choco install docker-desktop -y`
             
 
 #### Git
@@ -61,9 +58,8 @@ Docker Desktop ist eine Anwendung, die es ermöglicht, Anwendungen in isolierten
 Git ist ein Versionskontrollsystem, das es dir ermöglicht, Änderungen an Dateien zu verfolgen und diese Änderungen zu verwalten. Während dem Studium werden wir Git verwenden, um unsere Projekte zu verwalten und zu teilen. <br>
 [Mehr erfahren](https://git-scm.com/about)
 
-- installieren
-   - Windows: `choco install git -y`
-   - macOS: `brew install git`
+- Chocolatey Befehl zur Installation:<br>
+`choco install git -y`
 
 #### VS Code Extensions
 

@@ -10,5 +10,5 @@ Schliesst euch doch in Gruppen von zwei bis drei Leuten zusammen. Dabei ist vor 
 
 Im Repository oder unter folgenden Links findet ihr die Anleitungen für die Installationen:
 
-[Windows](https://github.com/juliankraft/StartwocheADLS_14.9/blob/main/Windows.md)
+[Windows](https://github.com/juliankraft/StartwocheADLS_14.9/blob/main/Windows.md)<br>
 [OSX](https://github.com/juliankraft/StartwocheADLS_14.9/blob/main/OSX.md)
