@@ -1,42 +1,3 @@
-### MAC USER ONLY
-Bist du dir unsicher ob du einen M1/M2 Chip oder einen Intel Processor besitzt? 
-
-Überprüfe dies bevor du den Download startest. Ganz oben links auf deinem Desktop siehst du das <span style="color: #FF5733">Apple Symbol</span>. Klicke dort drauf -> <span style="color: #FF5733">Über diesen Mac.</span> Bei der Rubrik Chip siehst du deinen Prozessor.
-
-### MAC USER - XCode App
-
-Zwei Möglichkeiten um Xcode zu installieren:
-
-- Erste Möglichkeit: Gehe in de Appstore und suche nach XCode.
-
-- Zweite Möglichkeit, wenn du mit dem Terminal herumspielen willst(DIes dauert erheblich länger das Erbnis ist am Ende das Gleiche):
-
-Es gibt eine Möglichkeit, auf denn Appstore mit dem Terminal zu navigieren.
-
-Zuerst müssen wir dafür "mas" installieren
-
-<span style="color: #FF5733">- brew install mas</span>
-
-Wenn die Installation reibungslosgeklappt hat, können wir nun mit mas zu Xcode Navigieren
-
-<span style="color: #FF5733">- mas search xcode </span>
-
-
-Wenn du dies ausführst siehst du etwa so etwas(kann sein dass du bisschen hoch scrollen musst):
-meggie@Fuchsli ~ % mas search xcode
-
-
-         640199958      Apple Developer                                    (10.4.1)
-         497799835      Xcode                                              (14.3.1)
-         1388020431     DevCleaner for Xcode                               (2.4.0)
-         -2143041818    GPT Code Creator for Xcode                         (1.8)
-         1504940162     RocketSim for Xcode Simulator                      (11.2.0)
-Wir brauchen Xcode: 497799835 
-
-<span style="color: #FF5733">- mas install 497799835</span>
-Melde dich nun mit deiner Apple ID an
-
-
 ### VS Code
 ***In diesem Programm wirst du deinen zukünftigen Code verfassen!*** <br>
 Visual Studio Code ist eine kostenlose, plattformübergreifende Code-Editor-Software, die von Microsoft entwickelt wurde. Sie bietet Unterstützung für Hunderte von Programmiersprachen und Erweiterungen, die die Funktionalität des Editors erweitern. VS Code ist eine der beliebtesten Code-Editor-Software auf dem Markt und wird von vielen Entwicklern und Datenwissenschaftlern verwendet. <br>
@@ -52,8 +13,6 @@ Chocolatey und Homebrew sind Paketmanager für Windows und MacOS. Sie ermöglich
 
 #### Installation
 
-<details>
-<summary>Installation von Chocolatey auf Windows</summary>
 
    - cmd.exe als Administrator öffnen</br>
    (Windows-Taste drücken, cmd.exe eingeben, Rechtsklick auf cmd.exe und "Als Administrator ausführen" auswählen)
@@ -65,23 +24,6 @@ Chocolatey und Homebrew sind Paketmanager für Windows und MacOS. Sie ermöglich
    - Mit dem Befehl `choco list` könnt ihr alle installierten Chocolatey-Pakete auflisten.
    - Mit dem Befehl `choco search "name"` könnt ihr nach verfügbaren Chocolatey-Paketen suchen.
    - Eine Liste mit verfügbaren Chocolatey-Paketen findet ihr auch [hier](https://community.chocolatey.org/packages).
-</details>
-
-<details>
-<summary>Installation von Homebrew auf MacOS</summary>
-
-- Terminal des Macbooks öffnen: Tippe in der Suchzeile des Macs Terminal ein.
-- Gebe diesen Befehll ins Terminal ein:
-   ```bash
-   /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
-   ```
-- Gebe nun dein Mac Password ein (Wichtig du wirst keine Sternchen sehen, oder dass du etwas eingibst)
-Klicke enter. Hat dies funktioniert. Drücke Nochmals enter um den Download zu bestätigen. 
-Erschein das Feld Succesfull, weisst du dass es funktioniert hat. 
-- Kopiere nun den Link bei Next Steps und füge in in der Commando Zeile ein. Drücke erneut enter. Um zu sehen ob dies funktioniert hat, rufe `brew help` auf, nun siehst du alle Funktionen die dir zu Verfügung stehen
-- Mit dem Befehl: `brew search "name"` kannst du diverse Programme abrufen.
-Wichtig `brew list`, zeigt dir an welche Programme/Extensions du mit brew herunter geladen hast, nicht die liste aller möglichen Programme von HOMEBREW
-</details>
 
 ### Sonstiges
 
