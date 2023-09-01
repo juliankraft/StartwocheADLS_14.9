@@ -6,7 +6,6 @@
 # Gib deine Auswahl ein, um den Spielstand zu sehen
 # Die Auswahl gibst du oben im Feld ein. Die Ausgabe erfolgt unten im Terminal
 
-
 import random
 
 rock = '''
@@ -35,6 +34,7 @@ scissors = '''
       (____)
 ---.__(___)
 '''
+
 while True:
     spieler_auswahl = int(input('Was wählst du? Für Stein 0, Für Schere 1, Für Papier 2: '))
     computer_auswahl = random.randint(0, 2)
@@ -50,7 +50,8 @@ while True:
         print(paper)
     else:
         print("Ungültige Auswahl. Bitte wähle 0, 1 oder 2.")
-        continue
+        continue  
+
     print("Der Computer hat gewählt:")
     if computer_auswahl == 0:
         print(rock)
@@ -62,8 +63,13 @@ while True:
     if spieler_auswahl == computer_auswahl:
         print("Es ist ein Unentschieden!")
     elif (spieler_auswahl == 0 and computer_auswahl == 1) or \
-        (spieler_auswahl == 1 and computer_auswahl == 2) or \
-        (spieler_auswahl == 2 and computer_auswahl == 0):
+         (spieler_auswahl == 1 and computer_auswahl == 2) or \
+         (spieler_auswahl == 2 and computer_auswahl == 0):
         print("Herzlichen Glückwunsch! Du hast gewonnen!")
     else:
         print("Entschuldigung, du hast verloren.")
+
+    play_again = input("Möchtest du noch einmal spielen? (Y/N): ")
+    if play_again.lower() != 'y':
+        break  
+
