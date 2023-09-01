@@ -35,35 +35,35 @@ scissors = '''
       (____)
 ---.__(___)
 '''
+while True:
+    spieler_auswahl = int(input('Was wählst du? Für Stein 0, Für Schere 1, Für Papier 2: '))
+    computer_auswahl = random.randint(0, 2)
 
-spieler_auswahl = int(input('Was wählst du? Für Stein 0, Für Schere 1, Für Papier 2: '))
-computer_auswahl = random.randint(0, 2)
+    if spieler_auswahl == 0:
+        print("Du hast Stein gewählt:")
+        print(rock)
+    elif spieler_auswahl == 1:
+        print("Du hast Schere gewählt:")
+        print(scissors)
+    elif spieler_auswahl == 2:
+        print("Du hast Papier gewählt:")
+        print(paper)
+    else:
+        print("Ungültige Auswahl. Bitte wähle 0, 1 oder 2.")
+        continue
+    print("Der Computer hat gewählt:")
+    if computer_auswahl == 0:
+        print(rock)
+    elif computer_auswahl == 1:
+        print(scissors)
+    else:
+        print(paper)
 
-if spieler_auswahl == 0:
-    print("Du hast Stein gewählt:")
-    print(rock)
-elif spieler_auswahl == 1:
-    print("Du hast Schere gewählt:")
-    print(scissors)
-elif spieler_auswahl == 2:
-    print("Du hast Papier gewählt:")
-    print(paper)
-else:
-    print("Ungültige Auswahl. Bitte wähle 0, 1 oder 2.")
-
-print("Der Computer hat gewählt:")
-if computer_auswahl == 0:
-    print(rock)
-elif computer_auswahl == 1:
-    print(scissors)
-else:
-    print(paper)
-
-if spieler_auswahl == computer_auswahl:
-    print("Es ist ein Unentschieden!")
-elif (spieler_auswahl == 0 and computer_auswahl == 1) or \
-     (spieler_auswahl == 1 and computer_auswahl == 2) or \
-     (spieler_auswahl == 2 and computer_auswahl == 0):
-    print("Herzlichen Glückwunsch! Du hast gewonnen!")
-else:
-    print("Entschuldigung, du hast verloren.")
+    if spieler_auswahl == computer_auswahl:
+        print("Es ist ein Unentschieden!")
+    elif (spieler_auswahl == 0 and computer_auswahl == 1) or \
+        (spieler_auswahl == 1 and computer_auswahl == 2) or \
+        (spieler_auswahl == 2 and computer_auswahl == 0):
+        print("Herzlichen Glückwunsch! Du hast gewonnen!")
+    else:
+        print("Entschuldigung, du hast verloren.")
