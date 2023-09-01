@@ -70,7 +70,7 @@ In VS Code können Erweiterungen installiert werden, um die Funktionalität des 
 - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 
 #### Anaconda "virtuelle Umgebung"
-*** Damit du deine Coding Pakete nicht einfach wild auf deinem Laptop herunter lädst, probieren wir diese mit Conda zu zähmen***
+***Damit du deine Coding Pakete nicht einfach wild auf deinem Laptop herunter lädst, probieren wir diese mit Conda zu zähmen***
 Damit du VS Studio Code bestmöglich nutzen kannst werden wir nun eine virtuelle Umgebung auf deinem Rechner installieren.
 Mach dich schon mal mit dem Namen Conda bekannt.
 Zunächst einmal, dass du hörst was sind die Vor und Nachteile.
@@ -90,9 +90,9 @@ Conda_Nachteile
 - In neu erzeugte Umgebungen werden bereits ein paar Pakete installiert, die im Zweifel gar nicht gebraucht werden
 
 
-Die Begriffe die du im Terminal öffters nutzen wirst ist zum einen conda deactivate, und conda activate. Wichtig ist erscheint neben deinen Namen beim Terminal (base), befindest du dich bereits in Conda. Um Conda zu deactivieren. Schreibe einfach den Befehl Conda deactivate rein.
+Die Begriffe die du im Terminal öffters nutzen wirst ist zum einen `conda deactivate`, und `conda activate`. Wichtig ist erscheint neben deinen Namen beim Terminal (base), befindest du dich bereits in Conda. Um Conda zu deactivieren. Schreibe einfach den Befehl Conda deactivate rein.
 
-Im Visual Studio, wirst du als Standart Kernel jeweils Conda auswählen müssen, dabei kannst du zwischen den Programmiersprachen wechseln.
+Im Visual Studio, wirst du als Standard Kernel jeweils Conda auswählen müssen, dabei kannst du zwischen den Programmiersprachen wechseln.
 
 
 hier noch zusätzliche Links zu Anaconda, falls du darüber mehr erfahren willst
