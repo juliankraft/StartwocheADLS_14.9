@@ -110,7 +110,7 @@ Python ist eine einfach zu erlernende, aber dennoch leistungsstarke Programmiers
 
 Python ist bereits im Anaconda vorinstalliert
   
-#### R in Conda
+#### R in VS Code
 
 R ist eine Programmiersprache für statistisches Rechnen, das analysieren und bearbeiten von Daten und bietet viele Möglichkeiten zur Datenvisualisierung. Während dem Studium werden wir R dafür immer mal wieder verwenden. <br>
 [Mehr erfahren](https://www.r-project.org/about.html)
