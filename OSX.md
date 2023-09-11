@@ -3,7 +3,7 @@ Bist du dir unsicher ob du einen M1/M2 Chip oder einen Intel Processor besitzt?
 
 Überprüfe dies bevor du den Download startest. Ganz oben links auf deinem Desktop siehst du das <span style="color: #FF5733">Apple Symbol</span>. Klicke dort drauf -> <span style="color: #FF5733">Über diesen Mac.</span> Bei der Rubrik Chip siehst du deinen Prozessor.
 
-### MAC USER - XCode App
+### XCode App
 
 Zwei Möglichkeiten um Xcode zu installieren:
 
@@ -46,29 +46,11 @@ Visual Studio Code ist eine kostenlose, plattformübergreifende Code-Editor-Soft
 
 Die Installation von VS Code ist sehr einfach. Laden Sie einfach die Installationsdatei von der [VS Code-Website](https://code.visualstudio.com/) herunter und führen Sie sie aus. Die Installation ist in wenigen Minuten abgeschlossen.
 
-### Chocolatey oder Homebrew
+### Homebrew
 ***Deine Installationshilfe im Studium um Programme einfach und Problemlos zu installieren*** <br>
-Chocolatey und Homebrew sind Paketmanager für Windows und MacOS. Sie ermöglichen es Ihnen, Software von der Kommandozeile aus zu installieren und zu verwalten. Sie sind sehr nützlich, um die Installation von Software zu automatisieren und zu vereinfachen. In diesem Studium werden wir Chocolatey für Windows und Homebrew für MacOS verwenden.
+Homebrew ist ein Paketmanager für MacOS. Sie ermöglichen es Ihnen, Software von der Kommandozeile aus zu installieren und zu verwalten. Sie sind sehr nützlich, um die Installation von Software zu automatisieren und zu vereinfachen.
 
-#### Installation
-
-<details>
-<summary>Installation von Chocolatey auf Windows</summary>
-
-   - cmd.exe als Administrator öffnen</br>
-   (Windows-Taste drücken, cmd.exe eingeben, Rechtsklick auf cmd.exe und "Als Administrator ausführen" auswählen)
-   - Folgenden Befehl ausführen:
-        ```bash
-        @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
-        ```
-   - Wenn die Installation abgeschlossen ist kann mit dem Befehl `choco` geartbeitet werden.</br> Versucht doch mal `choco -?` auszuführen um die Hilfe aufzurufen...
-   - Mit dem Befehl `choco list` könnt ihr alle installierten Chocolatey-Pakete auflisten.
-   - Mit dem Befehl `choco search "name"` könnt ihr nach verfügbaren Chocolatey-Paketen suchen.
-   - Eine Liste mit verfügbaren Chocolatey-Paketen findet ihr auch [hier](https://community.chocolatey.org/packages).
-</details>
-
-<details>
-<summary>Installation von Homebrew auf MacOS</summary>
+#### Installation von Homebrew
 
 - Terminal des Macbooks öffnen: Tippe in der Suchzeile des Macs Terminal ein.
 - Gebe diesen Befehll ins Terminal ein:
@@ -82,54 +64,6 @@ Erschein das Feld Succesfull, weisst du dass es funktioniert hat.
 - Mit dem Befehl: `brew search "name"` kannst du diverse Programme abrufen.
 Wichtig `brew list`, zeigt dir an welche Programme/Extensions du mit brew herunter geladen hast, nicht die liste aller möglichen Programme von HOMEBREW
 </details>
-
-### Sonstiges
-
-#### Python
-
-Python ist eine einfach zu erlernende, aber dennoch leistungsstarke Programmiersprache. Sie ist sehr beliebt für Datascience und Machine Learning. Während dem Studium werden wir Python für viele Programmieraufgaben verwenden. <br>
-[Mehr erfahren](https://www.python.org/about/)
-
-- installieren
-   - Windows: `choco install python -y` (-y steht für yes, damit die Installation automatisch durchgeführt wird)
-   - macOS: `brew install python`
-  
-#### R language
-
-R ist eine Programmiersprache für statistisches Rechnen, das analysieren und bearbeiten von Daten und bietet viele Möglichkeiten zur Datenvisualisierung. Während dem Studium werden wir R dafür immer mal wieder verwenden. <br>
-[Mehr erfahren](https://www.r-project.org/about.html)
-
-- installieren
-   - Windows: `choco install r.project -y`
-   - macOS: `brew install r`
-   
-#### Docker-Desktop
-
-Docker Desktop ist eine Anwendung, die es ermöglicht, Anwendungen in isolierten Umgebungen, sogenannten Containern, auf deinem Computer auszuführen. Diese Container enthalten alle benötigten Ressourcen, wie Code, Bibliotheken und Konfigurationen, um die Anwendung reibungslos zu betreiben. Durch die Verwendung von Docker kannst du Anwendungen in konsistenten und portablen Umgebungen entwickeln, testen und ausführen, unabhängig von den Unterschieden zwischen deinem Entwicklungsrechner und Produktionsumgebungen. <br>
-[Mehr erfahren](https://www.docker.com/why-docker)
-
-- installieren
-   - Windows: `choco install docker-desktop -y`
-   - macOS:  `brew update`, dannach `brew -- cask docker`
-            
-
-#### Git
-***Github wird dir dabei behilflich sein, in einem im Team Codes verwalten und Teilen*** <br>
-***Du kannst sie auch mit der Community teilen und deine eigenen Projekte verfassen*** <br>
-Git ist ein Versionskontrollsystem, das es dir ermöglicht, Änderungen an Dateien zu verfolgen und diese Änderungen zu verwalten. Während dem Studium werden wir Git verwenden, um unsere Projekte zu verwalten und zu teilen. <br>
-[Mehr erfahren](https://git-scm.com/about)
-
-- installieren
-   - Windows: `choco install git -y`
-   - macOS: `brew install git`
-
-#### VS Code Extensions
-
-In VS Code können Erweiterungen installiert werden, um die Funktionalität des Editors zu erweitern. Während dem Studium werden wir einige Erweiterungen verwenden, um unsere Arbeit zu vereinfachen. Folgende Erweiterungen könnt ihr gleich einmal installieren:
-
-- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-- [R](https://marketplace.visualstudio.com/items?itemName=Ikuyadeu.r)
-- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 
 #### Anaconda "virtuelle Umgebung"
 *** Damit du deine Coding Pakete nicht einfach wild auf deinem Laptop herunter lädst, probieren wir diese mit Conda zu zähmen***
@@ -161,6 +95,55 @@ hier noch zusätzliche Links zu Anaconda, falls du darüber mehr erfahren willst
 - [What is Anaconda for Python & Why Should You Learn it?](https://blog.hubspot.com/website/anaconda-python)
 
 - [Weitere informationen zu Anaconda in einem Video, installation und Why?(auf englisch)](https://www.youtube.com/watch?v=YJC6ldI3hWk&t=61s)
+
+#### ANACONDA INSTALLATION
+   - macOS: `brew update`, dannach `rew install --cast anaconda`
+Die intallation dauert ein bisschen länger. Nach der Installation musst du dein User-Passwort eingeben.
+(Nun siehst du im Launchpas die App Navigator-App)
+Starte die App und drücke auf environments in der Leiste, drücke auf das Play zeichen, Open im Terminal. Nun solltest du (Base)DEIN_NAME sehen
+
+
+#### Python in Conda
+
+Python ist eine einfach zu erlernende, aber dennoch leistungsstarke Programmiersprache. Sie ist sehr beliebt für Datascience und Machine Learning. Während dem Studium werden wir Python für viele Programmieraufgaben verwenden. <br>
+[Mehr erfahren](https://www.python.org/about/)
+
+Python ist bereits im Anaconda vorinstalliert
+  
+#### R in Conda
+
+R ist eine Programmiersprache für statistisches Rechnen, das analysieren und bearbeiten von Daten und bietet viele Möglichkeiten zur Datenvisualisierung. Während dem Studium werden wir R dafür immer mal wieder verwenden. <br>
+[Mehr erfahren](https://www.r-project.org/about.html)
+
+- installieren
+   - macOS: `brew install r`
+   
+#### Docker-Desktop
+
+Docker Desktop ist eine Anwendung, die es ermöglicht, Anwendungen in isolierten Umgebungen, sogenannten Containern, auf deinem Computer auszuführen. Diese Container enthalten alle benötigten Ressourcen, wie Code, Bibliotheken und Konfigurationen, um die Anwendung reibungslos zu betreiben. Durch die Verwendung von Docker kannst du Anwendungen in konsistenten und portablen Umgebungen entwickeln, testen und ausführen, unabhängig von den Unterschieden zwischen deinem Entwicklungsrechner und Produktionsumgebungen. <br>
+[Mehr erfahren](https://www.docker.com/why-docker)
+
+- installieren
+   - macOS:  `brew update`, dannach `brew -- cask docker`
+            
+
+#### Git
+***Github wird dir dabei behilflich sein, in einem im Team Codes verwalten und Teilen*** <br>
+***Du kannst sie auch mit der Community teilen und deine eigenen Projekte verfassen*** <br>
+Git ist ein Versionskontrollsystem, das es dir ermöglicht, Änderungen an Dateien zu verfolgen und diese Änderungen zu verwalten. Während dem Studium werden wir Git verwenden, um unsere Projekte zu verwalten und zu teilen. <br>
+[Mehr erfahren](https://git-scm.com/about)
+
+- installieren
+   - macOS: `brew install git`
+
+#### VS Code Extensions
+
+In VS Code können Erweiterungen installiert werden, um die Funktionalität des Editors zu erweitern. Während dem Studium werden wir einige Erweiterungen verwenden, um unsere Arbeit zu vereinfachen. Folgende Erweiterungen könnt ihr gleich einmal installieren:
+
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [R](https://marketplace.visualstudio.com/items?itemName=Ikuyadeu.r)
+- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+
 
 
 
