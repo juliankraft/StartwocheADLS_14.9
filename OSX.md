@@ -117,6 +117,9 @@ R ist eine Programmiersprache für statistisches Rechnen, das analysieren und be
 
 - installieren
    - macOS: `brew install r`
+
+R in Conda installieren
+conda create --name R_base r=4.1 --channel conda-forge
    
 #### Docker-Desktop
 
