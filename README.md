@@ -15,7 +15,4 @@ Im Repository oder unter folgenden Links findet ihr die Anleitungen für die Ins
 
 ### Troubleshooting - Hilfe zur Selbsthilfe
 
-Wenn ihr Probleme habt, versucht doch mal folgendes:
-- Googelt den Fehler
-
-- Fragt mal ChatGPT
+Wenn ihr Probleme habt, schaut doch mal [hier](https://github.com/juliankraft/StartwocheADLS_14.9/blob/main/selbsthilfe.md) vorbei...
