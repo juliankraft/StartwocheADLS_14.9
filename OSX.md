@@ -74,6 +74,8 @@ Wähle die Sprache aus 62 für Schweiz
 Mit Shift Command X, kannst du die Erweiterungen öffnen. Tippe R ein.
 R extension for Visual Studio Code installieren
 
+
+
 #### Anaconda "virtuelle Umgebung"
 *** Damit du deine Coding Pakete nicht einfach wild auf deinem Laptop herunter lädst, probieren wir diese mit Conda zu zähmen***
 Damit du VS Studio Code bestmöglich nutzen kannst werden wir nun eine virtuelle Umgebung auf deinem Rechner installieren.
