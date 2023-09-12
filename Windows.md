@@ -30,10 +30,51 @@ Chocolatey ist ein Paketmanager für Windows. Er ermöglicht dir, Software von d
 #### Python
 
 Python ist eine einfach zu erlernende, aber dennoch leistungsstarke Programmiersprache. Sie ist sehr beliebt für Datascience und Machine Learning. Während dem Studium werden wir Python für viele Programmieraufgaben verwenden. <br>
-[Mehr erfahren](https://www.python.org/about/)
+[Mehr über Python erfahren](https://www.python.org/about/) <br>
+
+Allerdings werden wir Python in verschiedenen Versionen und mit verschiedenen Paketen verwenden. Desshalb ist es sinnvoll, Python mit Anaconda zu installieren. <br>
+
+<details>
+  <summary>Mehr über Anaconda</summary>
+  
+  #### Anaconda "virtuelle Umgebung"
+***Damit du deine Coding Pakete nicht einfach wild auf deinem Laptop herunter lädst, probieren wir diese mit Conda zu zähmen***
+Damit du VS Studio Code bestmöglich nutzen kannst werden wir nun eine virtuelle Umgebung auf deinem Rechner installieren.
+Mach dich schon mal mit dem Namen Conda bekannt.
+Zunächst einmal, dass du hörst was sind die Vor und Nachteile.<br>
+
+Conda_Vorteile
+
+- Konsistent über alle Platformen
+- Installiert auch in Windows-Umgebungen alle Abhängigkeiten korrekt (Data Science)
+- Jupyter Notebook schon enthalten
+- Automatischer Download verschiedener Versionen beim Erzeugen einer virtuellen Umgebung
+- Keine Probleme mit Berechtigungen bei Firmen-Computern
+- Zugang zu weiteren Paketquellen neben pip
+- Unterstützt Python und R
+
+Conda_Nachteile
+
+- Pakete sind nicht immer auf dem aktuellsten Stand
+- In neu erzeugte Umgebungen werden bereits ein paar Pakete installiert, die im Zweifel gar nicht gebraucht werden
+
+
+Die Begriffe die du im Terminal öffters nutzen wirst ist zum einen `conda deactivate`, und `conda activate`. Wichtig ist erscheint neben deinen Namen beim Terminal (base), befindest du dich bereits in Conda. Um Conda zu deactivieren. Schreibe einfach den Befehl Conda deactivate rein.
+
+Im Visual Studio, wirst du als Standard Kernel jeweils Conda auswählen müssen, dabei kannst du zwischen den Programmiersprachen wechseln.
+
+
+hier noch zusätzliche Links zu Anaconda, falls du darüber mehr erfahren willst
+- [What is Anaconda for Python & Why Should You Learn it?](https://blog.hubspot.com/website/anaconda-python)
+
+- [Weitere informationen zu Anaconda in einem Video, installation und Why?(auf englisch)](https://www.youtube.com/watch?v=YJC6ldI3hWk&t=61s)
+
+
+</details>
+
 
 - Chocolatey Befehl zur Installation:<br>
-   `choco install python -y` (-y steht für yes, damit die Installation automatisch durchgeführt wird)
+   `choco install anaconda3 -y` (-y steht für yes, damit die Installation automatisch durchgeführt wird)
   
 #### R language
 
@@ -68,37 +109,6 @@ In VS Code können Erweiterungen installiert werden, um die Funktionalität des 
 - [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 - [R](https://marketplace.visualstudio.com/items?itemName=Ikuyadeu.r)
 - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
-
-#### Anaconda "virtuelle Umgebung"
-***Damit du deine Coding Pakete nicht einfach wild auf deinem Laptop herunter lädst, probieren wir diese mit Conda zu zähmen***
-Damit du VS Studio Code bestmöglich nutzen kannst werden wir nun eine virtuelle Umgebung auf deinem Rechner installieren.
-Mach dich schon mal mit dem Namen Conda bekannt.
-Zunächst einmal, dass du hörst was sind die Vor und Nachteile.
-Conda_Vorteile
-
-- Konsistent über alle Platformen
-- Installiert auch in Windows-Umgebungen alle Abhängigkeiten korrekt (Data Science)
-- Jupyter Notebook schon enthalten
-- Automatischer Download verschiedener Versionen beim Erzeugen einer virtuellen Umgebung
-- Keine Probleme mit Berechtigungen bei Firmen-Computern
-- Zugang zu weiteren Paketquellen neben pip
-- Unterstützt Python und R
-
-Conda_Nachteile
-
-- Pakete sind nicht immer auf dem aktuellsten Stand
-- In neu erzeugte Umgebungen werden bereits ein paar Pakete installiert, die im Zweifel gar nicht gebraucht werden
-
-
-Die Begriffe die du im Terminal öffters nutzen wirst ist zum einen `conda deactivate`, und `conda activate`. Wichtig ist erscheint neben deinen Namen beim Terminal (base), befindest du dich bereits in Conda. Um Conda zu deactivieren. Schreibe einfach den Befehl Conda deactivate rein.
-
-Im Visual Studio, wirst du als Standard Kernel jeweils Conda auswählen müssen, dabei kannst du zwischen den Programmiersprachen wechseln.
-
-
-hier noch zusätzliche Links zu Anaconda, falls du darüber mehr erfahren willst
-- [What is Anaconda for Python & Why Should You Learn it?](https://blog.hubspot.com/website/anaconda-python)
-
-- [Weitere informationen zu Anaconda in einem Video, installation und Why?(auf englisch)](https://www.youtube.com/watch?v=YJC6ldI3hWk&t=61s)
 
 
 
