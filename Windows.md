@@ -75,7 +75,12 @@ hier noch zusätzliche Links zu Anaconda, falls du darüber mehr erfahren willst
 
 - Chocolatey Befehl zur Installation:<br>
    `choco install anaconda3 -y` (-y steht für yes, damit die Installation automatisch durchgeführt wird)
-  
+
+- Um von der Konsole aus die volle Kontrolle über Anaconda zu bekommen, müssen noch die Pfade zu den conda Befehlen angelegt werden. Der einfachste Weg um das zu erreichen ist direkt von der Konsole aus. Dazu wieder cmd als Administrator ausführen und folgenden Befehl eingeben:<br>
+   ```bash
+   setx PATH "%PATH%;C:\tools\Anaconda3\condabin"
+   ```
+   Dabei muss der Pfad allenfalls angepasst werden, dass er mit eurer Installation übereinstimmt.
 #### R language
 
 R ist eine Programmiersprache für statistisches Rechnen, das analysieren und bearbeiten von Daten und bietet viele Möglichkeiten zur Datenvisualisierung. Während dem Studium werden wir R dafür immer mal wieder verwenden. <br>
@@ -83,9 +88,14 @@ R ist eine Programmiersprache für statistisches Rechnen, das analysieren und be
 
 - Chocolatey Befehl zur Installation:<br>
    `choco install r.project -y`
+   
+- Auch hier sollten die Pfade angelegt werden:<br>
+   ```bash
+   setx PATH "%PATH%;C:\Program Files\R\R-4.3.1\bin"
+   ```
 
 Danach startet ihr R mal als Administrator es sollte eine Verknüpfung auf dem Desktop sein...<br>
-Fürt folgende Befehle aus:<br>
+Führt folgende Befehle aus:<br>
 
 ```R
 install.packages('devtools', repos='https://stat.ethz.ch/CRAN/')
