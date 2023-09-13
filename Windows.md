@@ -8,7 +8,7 @@ Visual Studio Code ist eine kostenlose, plattformübergreifende Code-Editor-Soft
 Die Installation von VS Code ist sehr einfach. Laden Sie einfach die Installationsdatei von der [VS Code-Website](https://code.visualstudio.com/) herunter und führen Sie sie aus. Die Installation ist in wenigen Minuten abgeschlossen.
 
 ### Chocolatey
-***Deine Installationshilfe im Studium um Programme einfach und Problemlos zu installieren*** <br>
+***Deine Installationshilfe um Programme einfach und problemlos zu installieren*** <br>
 Chocolatey ist ein Paketmanager für Windows. Er ermöglicht dir, Software von der Kommandozeile aus zu installieren und zu verwalten. Chocolatey ist sehr nützlich, um die Installation von Software zu automatisieren und zu vereinfachen. Ein weiterer grosser Vorteil ist, dass Software die mit Chocolatey installiert wurde auch wieder vollständig deinstalliert werden kann - etwas das bei Windows sonst leider nicht ganz so einfach ist.
 
 #### Installation
@@ -20,12 +20,13 @@ Chocolatey ist ein Paketmanager für Windows. Er ermöglicht dir, Software von d
         ```bash
         @"%SystemRoot%\System32\WindowsPowerShell\v1.0\powershell.exe" -NoProfile -InputFormat None -ExecutionPolicy Bypass -Command "[System.Net.ServicePointManager]::SecurityProtocol = 3072; iex ((New-Object System.Net.WebClient).DownloadString('https://community.chocolatey.org/install.ps1'))" && SET "PATH=%PATH%;%ALLUSERSPROFILE%\chocolatey\bin"
         ```
-   - Wenn die Installation abgeschlossen ist kann mit dem Befehl `choco` geartbeitet werden.</br> Versucht doch mal `choco -?` auszuführen um die Hilfe aufzurufen...
+   - Wenn die Installation abgeschlossen ist kann mit dem Befehl `choco` geartbeitet werden.</br> 
+   - Versucht doch mal `choco -?` auszuführen um die Hilfe aufzurufen...
    - Mit dem Befehl `choco list` könnt ihr alle installierten Chocolatey-Pakete auflisten.
    - Mit dem Befehl `choco search "name"` könnt ihr nach verfügbaren Chocolatey-Paketen suchen.
    - Eine Liste mit verfügbaren Chocolatey-Paketen findet ihr auch [hier](https://community.chocolatey.org/packages).
 
-### Sonstiges
+### Weitere Installationen
 
 #### Python
 
@@ -67,9 +68,6 @@ install.packages(
         clean = TRUE
     )
 ```
-
-
-   
 #### Docker-Desktop
 
 Docker Desktop ist eine Anwendung, die es ermöglicht, Anwendungen in isolierten Umgebungen, sogenannten Containern, auf deinem Computer auszuführen. Diese Container enthalten alle benötigten Ressourcen, wie Code, Bibliotheken und Konfigurationen, um die Anwendung reibungslos zu betreiben. Durch die Verwendung von Docker kannst du Anwendungen in konsistenten und portablen Umgebungen entwickeln, testen und ausführen, unabhängig von den Unterschieden zwischen deinem Entwicklungsrechner und Produktionsumgebungen. <br>
@@ -78,7 +76,6 @@ Docker Desktop ist eine Anwendung, die es ermöglicht, Anwendungen in isolierten
 - Chocolatey Befehl zur Installation:<br>
 `choco install docker-desktop -y`
             
-
 #### Git
 ***Github wird dir dabei behilflich sein, in einem im Team Codes verwalten und Teilen*** <br>
 ***Du kannst sie auch mit der Community teilen und deine eigenen Projekte verfassen*** <br>
@@ -98,5 +95,5 @@ In VS Code können Erweiterungen installiert werden, um die Funktionalität des 
 
 
 
-#### Lass uns nun Python im Visualstudio Code testen. 
+### Lass uns nun Python im Visualstudio Code testen. 
 Ladet das File [RockPaperScisors.py](https://github.com/juliankraft/StartwocheADLS_14.9/blob/main/RockPaperScisors.py) herunter und öffnet es in Visualstudio Code. Versucht es mal ohne Hilfe auszuführen.
