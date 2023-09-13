@@ -83,6 +83,26 @@ R ist eine Programmiersprache für statistisches Rechnen, das analysieren und be
 
 - Chocolatey Befehl zur Installation:<br>
    `choco install r.project -y`
+
+Danach startet ihr R mal als Administrator es sollte eine Verknüpfung auf dem Desktop sein...<br>
+Fürt folgende Befehle aus:<br>
+
+```R
+install.packages('devtools', repos='https://stat.ethz.ch/CRAN/')
+```
+
+```R
+install.packages(
+        "pak",
+        repos = sprintf("https://r-lib.github.io/p/pak/stable/%s/%s/%s",
+        .Platform$pkgType,
+        R.Version()$os,
+        R.Version()$arch),
+        clean = TRUE
+    )
+```
+
+
    
 #### Docker-Desktop
 
