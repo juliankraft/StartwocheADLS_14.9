@@ -98,5 +98,5 @@ In VS Code können Erweiterungen installiert werden, um die Funktionalität des 
 
 
 
-#### Lass uns nun gemeinsam Python im Visualstudio Code testen. 
-Ladet das File RockPaperScisors.ipynb herunter und öffnet es in Visualstudio Code...
+#### Lass uns nun Python im Visualstudio Code testen. 
+Ladet das File [RockPaperScisors.py](https://github.com/juliankraft/StartwocheADLS_14.9/blob/main/RockPaperScisors.py) herunter und öffnet es in Visualstudio Code. Versucht es mal ohne Hilfe auszuführen.
