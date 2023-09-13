@@ -32,55 +32,10 @@ Chocolatey ist ein Paketmanager für Windows. Er ermöglicht dir, Software von d
 Python ist eine einfach zu erlernende, aber dennoch leistungsstarke Programmiersprache. Sie ist sehr beliebt für Datascience und Machine Learning. Während dem Studium werden wir Python für viele Programmieraufgaben verwenden. <br>
 [Mehr über Python erfahren](https://www.python.org/about/) <br>
 
-Allerdings werden wir Python in verschiedenen Versionen und mit verschiedenen Paketen verwenden. Desshalb ist es sinnvoll, Python mit Anaconda zu installieren. <br>
-
-<details>
-  <summary>Mehr über Anaconda</summary>
-  
-  #### Anaconda "virtuelle Umgebung"
-***Damit du deine Coding Pakete nicht einfach wild auf deinem Laptop herunter lädst, probieren wir diese mit Conda zu zähmen***
-Damit du VS Studio Code bestmöglich nutzen kannst werden wir nun eine virtuelle Umgebung auf deinem Rechner installieren.
-Mach dich schon mal mit dem Namen Conda bekannt.
-Zunächst einmal, dass du hörst was sind die Vor und Nachteile.<br>
-
-Conda_Vorteile
-
-- Konsistent über alle Platformen
-- Installiert auch in Windows-Umgebungen alle Abhängigkeiten korrekt (Data Science)
-- Jupyter Notebook schon enthalten
-- Automatischer Download verschiedener Versionen beim Erzeugen einer virtuellen Umgebung
-- Keine Probleme mit Berechtigungen bei Firmen-Computern
-- Zugang zu weiteren Paketquellen neben pip
-- Unterstützt Python und R
-
-Conda_Nachteile
-
-- Pakete sind nicht immer auf dem aktuellsten Stand
-- In neu erzeugte Umgebungen werden bereits ein paar Pakete installiert, die im Zweifel gar nicht gebraucht werden
-
-
-Die Begriffe die du im Terminal öffters nutzen wirst ist zum einen `conda deactivate`, und `conda activate`. Wichtig ist erscheint neben deinen Namen beim Terminal (base), befindest du dich bereits in Conda. Um Conda zu deactivieren. Schreibe einfach den Befehl Conda deactivate rein.
-
-Im Visual Studio, wirst du als Standard Kernel jeweils Conda auswählen müssen, dabei kannst du zwischen den Programmiersprachen wechseln.
-
-
-hier noch zusätzliche Links zu Anaconda, falls du darüber mehr erfahren willst
-- [What is Anaconda for Python & Why Should You Learn it?](https://blog.hubspot.com/website/anaconda-python)
-
-- [Weitere informationen zu Anaconda in einem Video, installation und Why?(auf englisch)](https://www.youtube.com/watch?v=YJC6ldI3hWk&t=61s)
-
-
-</details>
-
 
 - Chocolatey Befehl zur Installation:<br>
-   `choco install anaconda3 -y` (-y steht für yes, damit die Installation automatisch durchgeführt wird)
+   `choco install python -y` (-y steht für yes, damit die Installation automatisch durchgeführt wird)
 
-- Um von der Konsole aus die volle Kontrolle über Anaconda zu bekommen, müssen noch die Pfade zu den conda Befehlen angelegt werden. Der einfachste Weg um das zu erreichen ist direkt von der Konsole aus. Dazu wieder cmd als Administrator ausführen und folgenden Befehl eingeben:<br>
-   ```bash
-   setx PATH "%PATH%;C:\tools\Anaconda3\condabin"
-   ```
-   Dabei muss der Pfad allenfalls angepasst werden, dass er mit eurer Installation übereinstimmt.
 #### R language
 
 R ist eine Programmiersprache für statistisches Rechnen, das analysieren und bearbeiten von Daten und bietet viele Möglichkeiten zur Datenvisualisierung. Während dem Studium werden wir R dafür immer mal wieder verwenden. <br>
@@ -89,12 +44,13 @@ R ist eine Programmiersprache für statistisches Rechnen, das analysieren und be
 - Chocolatey Befehl zur Installation:<br>
    `choco install r.project -y`
    
-- Auch hier sollten die Pfade angelegt werden:<br>
+- Um von der Konsole aus die Kontrolle über R zu bekommen, muss noch der Pfad zu dem Interpreter angelegt werden. Der einfachste Weg um das zu erreichen ist direkt von der Konsole aus. Dazu wieder cmd als Administrator ausführen und folgenden Befehl eingeben:<br>
    ```bash
    setx PATH "%PATH%;C:\Program Files\R\R-4.3.1\bin"
    ```
+   Dabei muss der Pfad allenfalls angepasst werden, dass er mit eurer Installation übereinstimmt.
 
-Danach startet ihr R mal als Administrator es sollte eine Verknüpfung auf dem Desktop sein...<br>
+Danach startet ihr R mal als Administrator es sollte eine Verknüpfung auf dem Desktop sein oder testet gleich einmal den angelegten Pfad indem ihr cmd als Administrator ausführt und einfach mal `R` eingebt - das sollte euch eine R Konsole im Terminal öffnen.<br>
 Führt folgende Befehle aus:<br>
 
 ```R
@@ -143,4 +99,4 @@ In VS Code können Erweiterungen installiert werden, um die Funktionalität des 
 
 
 #### Lass uns nun gemeinsam Python im Visualstudio Code testen. 
-Ladet das file RockPaperScisors.ipynb herunter und öffnet es in Visualstudio Code...
+Ladet das File RockPaperScisors.ipynb herunter und öffnet es in Visualstudio Code...
