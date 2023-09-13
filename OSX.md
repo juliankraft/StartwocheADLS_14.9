@@ -108,7 +108,7 @@ hier noch zusätzliche Links zu Anaconda, falls du darüber mehr erfahren willst
 - [Weitere informationen zu Anaconda in einem Video, installation und Why?(auf englisch)](https://www.youtube.com/watch?v=YJC6ldI3hWk&t=61s)
 
 #### ANACONDA INSTALLATION
-   - macOS: `brew update`, dannach `rew install --cast anaconda`
+   - macOS: `brew update`, dannach `brew install --cast anaconda`
 Die intallation dauert ein bisschen länger. Nach der Installation musst du dein User-Passwort eingeben.
 (Nun siehst du im Launchpas die App Navigator-App)
 Starte die App und drücke auf environments in der Leiste, drücke auf das Play zeichen, Open im Terminal. Nun solltest du (Base)DEIN_NAME sehen
@@ -131,6 +131,17 @@ R ist eine Programmiersprache für statistisches Rechnen, das analysieren und be
 
 R in Conda installieren
 conda create --name R_base r=4.1 --channel conda-forge
+
+#### R
+brew install r
+brew install fribidi
+brew install libtiff
+brew install harfbuzz
+brew install freetype2
+
+R 
+install.packages('devtools')
+install.packages('pak')
    
 #### Docker-Desktop
 
