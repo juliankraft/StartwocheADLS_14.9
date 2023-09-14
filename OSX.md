@@ -95,6 +95,16 @@ brew install libtiff <br>
 brew install harfbuzz <br>
 brew install freetype2 <br>
 
+dann tippe R
+install.packages('devtools')<br>
+install.packages('pak')<br>
+
+
+#### R in VS Code
+
+R ist eine Programmiersprache für statistisches Rechnen, das analysieren und bearbeiten von Daten und bietet viele Möglichkeiten zur Datenvisualisierung. Während dem Studium werden wir R dafür immer mal wieder verwenden. <br>
+[Mehr erfahren](https://www.r-project.org/about.html)
+
 R extension for Visual Studio Code installieren
 Mit Shift Command X, kannst du die Erweiterungen öffnen. Tippe R ein. <br>
 
@@ -108,27 +118,8 @@ Hast du python bereits auf deinem Rechner? überprüfe dies mit 'python --versio
 - installieren
    - macOS: `brew install python3`
 
-  
-#### R in VS Code
 
-R ist eine Programmiersprache für statistisches Rechnen, das analysieren und bearbeiten von Daten und bietet viele Möglichkeiten zur Datenvisualisierung. Während dem Studium werden wir R dafür immer mal wieder verwenden. <br>
-[Mehr erfahren](https://www.r-project.org/about.html)
-
-
-#### R
-brew install r <br>
-dann tippe R
-install.packages('languageserver')
-brew install fribidi <br>
-brew install libtiff <br>
-brew install harfbuzz <br>
-brew install freetype2 <br>
-
-R <br>
-install.packages('devtools') <br>
-install.packages('pak') <br>
-   
-            
+               
 
 #### Git
 ***Github wird dir dabei behilflich sein, in einem im Team Codes verwalten und Teilen*** <br>
