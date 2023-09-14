@@ -64,8 +64,9 @@ Homebrew ist ein Paketmanager für MacOS. Sie ermöglichen es Ihnen, Software vo
 #### Installation von Homebrew
 
 - Terminal des Macbooks öffnen: Tippe in der Suchzeile des Macs Terminal ein.
-- Gebe diesen Befehll ins Terminal ein:
-   ```bash
+- Gebe diesen Befehll ins Terminal ein:<br>
+bash<br>
+   ```
    /bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
    ```
 - Gebe nun dein Mac Password ein (Wichtig du wirst keine Sternchen sehen, oder dass du etwas eingibst)
@@ -136,9 +137,9 @@ Git ist ein Versionskontrollsystem, das es dir ermöglicht, Änderungen an Datei
 [Mehr erfahren](https://git-scm.com/about)
 
 - installieren
-   - macOS: `brew install git`
-   git config --global user.name 'Dein Name'
-   git config --global user.email 'dein_name.@students.zhaw.ch'
+   - macOS: `brew install git`<br>
+   git config --global user.name 'Dein Name'<br>
+   git config --global user.email 'dein_name.@students.zhaw.ch'<br>
 
 #### VS Code Extensions
 
