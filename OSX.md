@@ -86,7 +86,7 @@ Docker Desktop ist eine Anwendung, die es ermöglicht, Anwendungen in isolierten
    - macOS:  `brew update`, dannach `brew -- cask docker`
 
 #### Instalation R in Homebrew +VS Code
-brew intall r <br>
+brew install r <br>
 dann tippe R <br>
 tippe : install.packages("languageserver")
 Wähle die Sprache aus 62 für Schweiz
