@@ -94,6 +94,7 @@ brew install fribidi <br>
 brew install libtiff <br>
 brew install harfbuzz <br>
 brew install freetype2 <br>
+brew install libgit2 <br>
 
 dann tippe R
 install.packages('devtools')<br>
