@@ -7,8 +7,10 @@ Bist du dir unsicher ob du einen M1/M2 Chip oder einen Intel Processor besitzt?
 
 Zwei Möglichkeiten um Xcode zu installieren:
 
-- Erste Möglichkeit: Gehe in de Appstore und suche nach XCode.
+- Erste Möglichkeit: Gehe in de Appstore und suche nach XCode.!!!! - Nur diese führen wir durch
 
+
+"""(Zusatzinfo für euch, aber nicht im Unterricht durchführen)
 - Zweite Möglichkeit, wenn du mit dem Terminal herumspielen willst(DIes dauert erheblich länger das Erbnis ist am Ende das Gleiche):
 
 Es gibt eine Möglichkeit, auf denn Appstore mit dem Terminal zu navigieren.
@@ -35,12 +37,21 @@ Wir brauchen Xcode: 497799835
 
 <span style="color: #FF5733">- mas install 497799835</span>
 Melde dich nun mit deiner Apple ID an
+"""
 
 
-### VS Code
+#### VS Code
 ***In diesem Programm wirst du deinen zukünftigen Code verfassen!*** <br>
 Visual Studio Code ist eine kostenlose, plattformübergreifende Code-Editor-Software, die von Microsoft entwickelt wurde. Sie bietet Unterstützung für Hunderte von Programmiersprachen und Erweiterungen, die die Funktionalität des Editors erweitern. VS Code ist eine der beliebtesten Code-Editor-Software auf dem Markt und wird von vielen Entwicklern und Datenwissenschaftlern verwendet. <br>
 [VS Code in 100 Sekunden](https://www.youtube.com/watch?v=KMxo3T_MTvY&ab_channel=Fireship)
+
+#### VS Code Extensions
+
+In VS Code können Erweiterungen installiert werden, um die Funktionalität des Editors zu erweitern. Während dem Studium werden wir einige Erweiterungen verwenden, um unsere Arbeit zu vereinfachen. Folgende Erweiterungen könnt ihr gleich einmal installieren:
+
+- [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
+- [R](https://marketplace.visualstudio.com/items?itemName=Ikuyadeu.r)
+- [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
 
 #### Installation
 
@@ -65,84 +76,6 @@ Erschein das Feld Succesfull, weisst du dass es funktioniert hat.
 Wichtig `brew list`, zeigt dir an welche Programme/Extensions du mit brew herunter geladen hast, nicht die liste aller möglichen Programme von HOMEBREW
 </details>
 
-#### Instalation R in Homebrew +VS Code
-brew intall R
-dann tippe R
-tippe : install.packages("languageserver")
-Wähle die Sprache aus 62 für Schweiz
-
-Mit Shift Command X, kannst du die Erweiterungen öffnen. Tippe R ein.
-R extension for Visual Studio Code installieren
-
-
-
-#### Anaconda "virtuelle Umgebung"
-*** Damit du deine Coding Pakete nicht einfach wild auf deinem Laptop herunter lädst, probieren wir diese mit Conda zu zähmen***
-Damit du VS Studio Code bestmöglich nutzen kannst werden wir nun eine virtuelle Umgebung auf deinem Rechner installieren.
-Mach dich schon mal mit dem Namen Conda bekannt.
-Zunächst einmal, dass du hörst was sind die Vor und Nachteile.
-Conda_Vorteile
-
-- Konsistent über alle Platformen
-- Installiert auch in Windows-Umgebungen alle Abhängigkeiten korrekt (Data Science)
-- Jupyter Notebook schon enthalten
-- Automatischer Download verschiedener Versionen beim Erzeugen einer virtuellen Umgebung
-- Keine Probleme mit Berechtigungen bei Firmen-Computern
-- Zugang zu weiteren Paketquellen neben pip
-- Unterstützt Python und R
-
-Conda_Nachteile
-
-- Pakete sind nicht immer auf dem aktuellsten Stand
-- In neu erzeugte Umgebungen werden bereits ein paar Pakete installiert, die im Zweifel gar nicht gebraucht werden
-
-
-Die Begriffe die du im Terminal öffters nutzen wirst ist zum einen conda deactivate, und conda activate. Wichtig ist erscheint neben deinen Namen beim Terminal (base), befindest du dich bereits in Conda. Um Conda zu deactivieren. Schreibe einfach den Befehl Conda deactivate rein.
-
-Im Visual Studio, wirst du als Standart Kernel jeweils Conda auswählen müssen, dabei kannst du zwischen den Programmiersprachen wechseln.
-
-
-hier noch zusätzliche Links zu Anaconda, falls du darüber mehr erfahren willst
-- [What is Anaconda for Python & Why Should You Learn it?](https://blog.hubspot.com/website/anaconda-python)
-
-- [Weitere informationen zu Anaconda in einem Video, installation und Why?(auf englisch)](https://www.youtube.com/watch?v=YJC6ldI3hWk&t=61s)
-
-#### ANACONDA INSTALLATION
-   - macOS: `brew update`, dannach `brew install --cast anaconda`
-Die intallation dauert ein bisschen länger. Nach der Installation musst du dein User-Passwort eingeben.
-(Nun siehst du im Launchpas die App Navigator-App)
-Starte die App und drücke auf environments in der Leiste, drücke auf das Play zeichen, Open im Terminal. Nun solltest du (Base)DEIN_NAME sehen
-
-
-#### Python in Conda
-
-Python ist eine einfach zu erlernende, aber dennoch leistungsstarke Programmiersprache. Sie ist sehr beliebt für Datascience und Machine Learning. Während dem Studium werden wir Python für viele Programmieraufgaben verwenden. <br>
-[Mehr erfahren](https://www.python.org/about/)
-
-Python ist bereits im Anaconda vorinstalliert
-  
-#### R in VS Code
-
-R ist eine Programmiersprache für statistisches Rechnen, das analysieren und bearbeiten von Daten und bietet viele Möglichkeiten zur Datenvisualisierung. Während dem Studium werden wir R dafür immer mal wieder verwenden. <br>
-[Mehr erfahren](https://www.r-project.org/about.html)
-
-- installieren
-   - macOS: `brew install r`
-
-R in Conda installieren
-conda create --name R_base r=4.1 --channel conda-forge
-
-#### R
-brew install r
-brew install fribidi
-brew install libtiff
-brew install harfbuzz
-brew install freetype2
-
-R 
-install.packages('devtools')
-install.packages('pak')
-   
 #### Docker-Desktop
 
 Docker Desktop ist eine Anwendung, die es ermöglicht, Anwendungen in isolierten Umgebungen, sogenannten Containern, auf deinem Computer auszuführen. Diese Container enthalten alle benötigten Ressourcen, wie Code, Bibliotheken und Konfigurationen, um die Anwendung reibungslos zu betreiben. Durch die Verwendung von Docker kannst du Anwendungen in konsistenten und portablen Umgebungen entwickeln, testen und ausführen, unabhängig von den Unterschieden zwischen deinem Entwicklungsrechner und Produktionsumgebungen. <br>
@@ -150,6 +83,50 @@ Docker Desktop ist eine Anwendung, die es ermöglicht, Anwendungen in isolierten
 
 - installieren
    - macOS:  `brew update`, dannach `brew -- cask docker`
+
+#### Instalation R in Homebrew +VS Code
+brew intall r <br>
+dann tippe R <br>
+tippe : install.packages("languageserver")
+Wähle die Sprache aus 62 für Schweiz
+brew install fribidi <br>
+brew install libtiff <br>
+brew install harfbuzz <br>
+brew install freetype2 <br>
+
+R extension for Visual Studio Code installieren
+Mit Shift Command X, kannst du die Erweiterungen öffnen. Tippe R ein. <br>
+
+
+
+#### Python installieren
+
+Python ist eine einfach zu erlernende, aber dennoch leistungsstarke Programmiersprache. Sie ist sehr beliebt für Datascience und Machine Learning. Während dem Studium werden wir Python für viele Programmieraufgaben verwenden. <br>
+[Mehr erfahren](https://www.python.org/about/)
+Hast du python bereits auf deinem Rechner? überprüfe dies mit 'python --version'
+- installieren
+   - macOS: `brew install python3`
+
+  
+#### R in VS Code
+
+R ist eine Programmiersprache für statistisches Rechnen, das analysieren und bearbeiten von Daten und bietet viele Möglichkeiten zur Datenvisualisierung. Während dem Studium werden wir R dafür immer mal wieder verwenden. <br>
+[Mehr erfahren](https://www.r-project.org/about.html)
+
+
+#### R
+brew install r <br>
+dann tippe R
+install.packages('languageserver')
+brew install fribidi <br>
+brew install libtiff <br>
+brew install harfbuzz <br>
+brew install freetype2 <br>
+
+R <br>
+install.packages('devtools') <br>
+install.packages('pak') <br>
+   
             
 
 #### Git
@@ -160,6 +137,8 @@ Git ist ein Versionskontrollsystem, das es dir ermöglicht, Änderungen an Datei
 
 - installieren
    - macOS: `brew install git`
+   git config --global user.name 'Dein Name'
+   git config --global user.email 'dein_name.@students.zhaw.ch'
 
 #### VS Code Extensions
 
